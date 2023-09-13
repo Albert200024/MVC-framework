@@ -1,0 +1,57 @@
+.form-container {
+    display: flex;
+    justify-content: center;
+    height: 50vh;
+    align-items: center;
+
+}
+
+.form-block h4{
+    text-align: center;
+    font-size: 25px;
+    padding: 25px 0;
+    color: darkgreen;
+}
+
+.form-item {
+    display: flex;
+    column-gap: 5px;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.form-block form {
+    display: flex;
+    flex-direction: column;
+    row-gap: 15px;
+}
+
+.form-block form p {
+    font-size: 18px;
+    color: darkgreen;
+}
+
+.form-block form input:not(.form-btn){
+    font-size: 18px;
+color: orange;
+    background: inherit;
+    border-right: 0;
+    border-left: 0;
+    border-top: 0;
+    outline: none;
+   padding: 5px;
+    border-bottom: 1px solid green;
+}
+
+.form-btn {
+    margin-top: 10px;
+  background: orange;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+    width: 100%;
+    padding: 10px 0;
+    font-size: 16px;
+    color: darkgreen;
+    font-family: Roboto-Reagular;
+}
